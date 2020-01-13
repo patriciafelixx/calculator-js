@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
+    <audio src="./src/click.mp3"></audio>
+    <link rel="stylesheet" href="main.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+
+        <input id="display" type="text" readonly />
+        <p class="error">E</p>
+
+        <input type="button" onclick="allClear()" value="AC" class="double" />
+        <input type="button" onclick="turnOff()" value="OFF" class="off" />
+        <input type="button" onclick="operation(value)" value="÷" />
+
+        <input type="button" onclick="insert(value)" value="7" />
+        <input type="button" onclick="insert(value)" value="8" />
+        <input type="button" onclick="insert(value)" value="9" />
+        <input type="button" onclick="operation(value)" value="×" />
+
+        <input type="button" onclick="insert(value)" value="4" />
+        <input type="button" onclick="insert(value)" value="5" />
+        <input type="button" onclick="insert(value)" value="6" />
+        <input type="button" onclick="operation(value)" value="-" />
+
+        <input type="button" onclick="insert(value)" value="1" />
+        <input type="button" onclick="insert(value)" value="2" />
+        <input type="button" onclick="insert(value)" value="3" />
+        <input type="button" onclick="operation(value)" value="+" />
+
+        <input type="button" onclick="insert(value)" value="0" />
+        <input type="button" onclick="point()" value="." />
+        <input type="button" onclick="operation(value)" value="=" class="double" />
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
