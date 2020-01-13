@@ -1,5 +1,7 @@
 # Calculadora
 
 Auto desafio **JavaScript**.
+[github.io/calculator-js](https://patriciafelixx.github.io/calculator-js/)
 
-[![](https://github.com/patriciafelixx/calculator-js/tree/master/src/demo.png)](https://github.com/patriciafelixx/calculator-js)
+
+![demo](/src/demo.jpg)
